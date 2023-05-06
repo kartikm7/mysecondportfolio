@@ -1,0 +1,102 @@
+body{
+    background-color: #131c26;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    font-family: "Poppins", sans-serif;
+}
+p{
+    color: rgb(233, 245, 255);
+}
+.secondary-color{
+    color: #f88379;
+    animation: fadeIn 5s;
+}
+.secondary-color:hover{
+    background-color: #f88379;
+    color: aliceblue;
+    transition: 1s ease-in-out  ;
+}
+.main{
+    flex:1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 5rem;
+    color: rgb(233, 245, 255);
+}
+.title-card{
+    color: rgb(233, 245, 255);
+    margin:0;
+    animation: fadeIn 10s;
+}
+.title-text{
+    animation: fadeIn 12s;
+}
+.logo{
+    height: 100px;
+    object-fit: contain;
+    margin-top: 2.5%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f88379;
+}
+header ul li a{
+    color: rgb(233, 245, 255);
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: #f88379;
+    transition: 0.5s ease-in-out;
+}
+header ul li:hover{
+    background-color: aliceblue;
+    transition: 0.5s ease-in-out;
+}
+.title-image{
+    width:300px;
+    height:200px;
+    object-fit: contain;
+    float: left;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 50px;
+    animation: fadeIn 5s;
+}
+.card{
+    width: 45%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin: 5% 5%;
+    justify-content: space-between;
+}
+footer p a{
+    color: rgb(233, 245, 255);
+    text-decoration: none;
+}
+/* a:visited{
+    color:#131c26;
+} */
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
